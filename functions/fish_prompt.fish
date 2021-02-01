@@ -199,7 +199,7 @@ function fish_prompt
     set_color normal
     
     if test -n "$IN_NIX_SHELL"
-        echo -sn " (n) "
+        echo -sn " (n)"
     end
 
     if test $cwd != '~'
